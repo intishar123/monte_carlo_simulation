@@ -32,5 +32,6 @@ plt.ylabel('Estimated Numeric Value')
 plt.title('Statistical Convergence Matrix: Estimating Pi via Stochastic Randomization')
 plt.legend()
 plt.grid(True, linestyle=':', alpha=0.6)
+plt.show()
 
 print(f"Final Execution Convergence Result: {estimates[-1]}")
